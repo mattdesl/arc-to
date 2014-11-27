@@ -16,5 +16,8 @@ test("implements arcTo with generic 2D arrays", function(t) {
     path = arcTo(20, 20, 10, 0, Math.PI*2, false)
     t.deepEqual(path[0].map(Math.round), path[path.length-1].map(Math.round), 'first and last point match')    
     
+    path = [ [500, 500] ]
+    arcTo(20, 20, 10, 0, Math.PI*2, false, undefined, path)
+    t.deepEqual(path[0], [500,500], 'allows adding to existing path')
     t.end()
 })
