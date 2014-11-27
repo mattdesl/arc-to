@@ -1,7 +1,7 @@
 //if 'steps' is not specified, we'll just approximate it
 module.exports = function arc(x, y, radius, start, end, clockwise, steps, path) {
     if (!path)
-        path = [];
+        path = []
 
     x = x||0
     y = y||0
