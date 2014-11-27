@@ -1,0 +1,42 @@
+{
+  "name": "arc-to",
+  "version": "1.0.0",
+  "description": "implements arcTo with generic 2D arrays",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "canvas-testbed": "^1.0.3",
+    "draw-triangles-2d": "^1.0.0",
+    "extrude-polyline": "^1.0.2",
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "arc",
+    "to",
+    "arcTo",
+    "curve",
+    "circle",
+    "line",
+    "drawing",
+    "path",
+    "render",
+    "2d"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/arc-to.git"
+  },
+  "homepage": "https://github.com/mattdesl/arc-to",
+  "bugs": {
+    "url": "https://github.com/mattdesl/arc-to/issues"
+  }
+}
