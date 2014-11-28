@@ -1,6 +1,6 @@
 {
   "name": "arc-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "implements arcTo with generic 2D arrays",
   "main": "index.js",
   "license": "MIT",
