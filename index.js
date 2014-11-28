@@ -23,7 +23,7 @@ module.exports = function arc(x, y, radius, start, end, clockwise, steps, path) 
 
     //ensure we have at least 3 steps..
     steps = Math.max(steps, 3)
-
+    
     var f = dist / (steps),
         t = start
 

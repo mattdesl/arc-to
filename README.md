@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Implements canvas2D `arc()` function with bare 2D points. 
+Implements CanvasContext2D `arc()` function with bare 2D points, attempting to maintain visual consistency.
 
 ```js
 var arc = require('arc-to')

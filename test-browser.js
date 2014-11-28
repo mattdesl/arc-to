@@ -14,7 +14,7 @@ function render(ctx, width, height, dt) {
     draw(ctx, [275, 150, 10, Math.PI, Math.PI/3])
     draw(ctx, [100, 150, 10, Math.PI, Math.PI/3, true])
     draw(ctx, [170, 150, 10, Math.PI, Math.PI*2, true])
-    draw(ctx, [350, 150, 55, 0, Math.PI*2, false, 5])
+    draw(ctx, [350, 150, 55, 0, Math.PI*1.5, false, 5])
     draw(ctx, [350, 150, 25, 0, Math.PI*2, false])
 }
 
@@ -30,7 +30,7 @@ function draw(ctx, args) {
 
     ctx.beginPath()
     ctx.arc.apply(ctx, args)
-    ctx.strokeStyle = 'white'
+    ctx.strokeStyle = 'gray'
     ctx.lineWidth = 2
     ctx.stroke()
 }
